@@ -1,0 +1,77 @@
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+h1 {
+  text-align: center;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+}
+.flex-container > div {
+  display: flex;
+  margin: 100px;
+  padding: 20px;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+	display: flex;
+	background-color: black;
+	justify-content: left;
+	padding: 40px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+	padding: 10px;
+}
+p {
+	padding: 0px;
+	margin: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.flex-container2 {
+	display: flex;
+	flex-wrap: wrap;
+ justify-content: center;	
+}
+.flex-container2 > div {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  flex-direction: row;
+}
+.flex-container3 {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+}
+.flex-container3 > div {
+  display: flex;
+  margin: 15px;
+  padding: 10px;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ .flex-container4 {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+}
+.flex-container4 > div {
+  display: flex;
+  margin: 30px;
+  padding: 40px;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;

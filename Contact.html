@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<style>
+      img {
+        display: block;
+        margin-right: auto;
+padding: 20px;
+      }
+    </style>
+<title>Contact</title>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<script>
+function validateForm() {
+let fname = document.forms["Application"]["firstname"].value;
+if (fname == "") {
+alert("Name must be filled out");
+return false
+}}
+function validateForm() {
+let phone = document.forms["Application"]["firstname"].value;
+if (phone == "") {
+alert("Phone Number must be filled out");
+return false
+}}
+function validateForm() {
+let email = document.forms["Application"]["firstname"].value;
+if (email == "") {
+alert("Email must be filled out");
+return false
+}}
+function validateForm() {
+let subject = document.forms["Application"]["firstname"].value;
+if (subject == "") {
+alert("Subject must be filled out");
+return false
+}}
+</script>
+</head>
+<body>
+<div class="header">
+<div><img src="sedtghfhrt.png" alt="Logo" height=120px style="float: left;"></div>
+<div><h1>Chat With Us Today!</h1></div>
+<a href="Coursework.html">Home</a>
+&emsp;&emsp;&emsp;<a href="About.html">About</a>
+&emsp;&emsp;&emsp;<a href="Work With Us.html">Work With Us</a>
+&emsp;&emsp;&emsp;<a href="Contact.html">Contact</a>
+</div>
+<div class="container">
+<main>
+  <form name="Application" 
+  action="https://formspree.io/f/mvoelwke"
+  method="POST"
+  onsubmit="return validateForm()"
+  >
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" name="phonenumber" placeholder="Your phone number..">
+
+     <label for="lname">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your Email..">
+
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+	
+	<label for="myfile">Upload CV:</label>
+	<input type="file" id="myfile" name="myfile">
+<br>
+<br>
+<br>
+    <input type="submit" value="Submit">
+  </form>
+  </main>
+</div>
+<footer>
+<ul>
+<li><h3>Links</h3></li>
+<li><a href="Coursework.html">Home</a></li>
+&emsp;&emsp;
+<li><a href="About.html">About</a></li>
+&emsp;&emsp;
+<li><a href="Work With Us.html">Work With Us</a></li>
+&emsp;&emsp;
+<li><a href="Contact.html">Contact</a></li>
+</ul>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<ul>
+<h3>Social Media Links</h3>
+<li><a href="https://www.facebook.com">
+  <img src="facebookgerahg.png" alt="facebook logo" height=80px></a></li>
+&emsp;&emsp;
+<li><a href="https://www.instagram.com"> 
+<img src="instagramadf.png" alt="instagram logo" height=80px></a></li>
+</ul>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<p>Hot Beans Web Inc.<br>25 First St.<br>Somewhere, MA 02141</p>
+</footer>
+</body>
+</html>
